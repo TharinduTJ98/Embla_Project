@@ -1,0 +1,20 @@
+<h1>Add Project to Project Management System</h1>
+<form [formGroup] = "projectForm" (ngSubmit)="onFormSubmit()">
+    <div class="container">
+        <div class="row">
+            <mat-form-field>
+                <mat-label>Project Name</mat-label>
+                <input matInput formControlName="name" required="">
+            </mat-form-field>
+        </div>
+        <div class="row">
+            <mat-form-field>
+                <mat-label>Revenue</mat-label>
+                <input matInput formControlName="revenue" required="">
+            </mat-form-field>
+        </div>
+        <div mat-dialog-actions class="action">
+            <button mat-raised-button color="primary" type="submit" >Save</button>
+        </div>
+    </div>  
+</form>

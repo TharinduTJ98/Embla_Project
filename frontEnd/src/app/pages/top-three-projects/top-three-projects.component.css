@@ -1,0 +1,21 @@
+.container {
+    width: 70%;
+    margin-left: 100px;
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 46px;
+  }
+
+h1{
+    text-align: center;
+}
+
+mat-card{
+  background-color: rgb(0, 0, 0);
+  color: white;
+  width: 250px;
+}
